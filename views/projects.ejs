@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <%- include ('partials/head') %> 
+</head>
+<body>
+  <div class="background">
+    <%- include ('partials/navbar') %>
+    <div class="container p-5">
+      <h1 class="title">Projects</h1>
+      <div class="container mt-5"  style="max-width: 600px; margin-left:0;">
+        <div class="row">
+          <div class="col-sm d-flex flex-wrap align-items-center">
+            <img src="/images/fridge.png" width="300px" class="">
+          </div>
+          <div class="col-sm">
+            <p class="project-heading mt-4">Fridge Processor</p>
+            <p class="project-content">Role: Developer</p>
+            <p class="project-content">This is a web application that allow users to search for recipes 
+              using specific ingredients that are left in their fridge. It runs on Django 
+              in the backend and handles frontend interaction with Javascript.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm d-flex flex-wrap align-items-center">
+            <img src="/images/crossword.png" width="300px" class="center">
+          </div>
+          <div class="col-sm">
+            <p class="project-heading mt-4">Crossword Generator</p>
+            <p class="project-content">Role: Student</p>
+            <p class="project-content">This is an assignment from the course CS50 AI. The objective is to write an AI to generate crossword puzzles. </p>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col-sm d-flex flex-wrap align-items-center">
+            <img src="/images/java.png" width="300px" class="center">
+          </div>
+          <div class="col-sm">
+            <p class="project-heading mt-4">Java Console App</p>
+            <p class="project-content">Role: Student</p>
+            <p class="project-content">This is an assignment from the course Java Programming. The objective is to write a Java application that creates a Java console application to keep records of singers and displays their records. </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+<%- include ('partials/script') %>
+</html>

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <%- include ('partials/head') %> 
+</head>
+<body>
+  <div class="background">
+    <%- include ('partials/navbar') %>
+    <div class="container p-5">
+      <h1 class="title">Contact</h1>
+
+      <div class="container contact p-3">
+        <p class="">Daniel Tse</p>
+        <br>
+        <p>hinilyu@gmail.com</p>
+        <a href="http://github.com/hinilyu"><img height="50px" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original-wordmark.svg" />
+        </a>
+      </div>
+      
+      <form action="/" style="max-width: 500px">
+        <div class="row mt-5 mb-3">
+          <div class="col">
+            <input type="text" class="form-control" placeholder="First name">
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Last name">
+          </div>
+        </div>
+        <div class="form-group mb-3">
+          <input type="email" class="form-control" id="email" placeholder="Enter email">
+        </div>
+        <div class="form-group mb-3">
+          <input type="text" class="form-control" id="number" placeholder="Contact number">
+        </div>
+        
+        <div class="form-group">
+          <textarea class="form-control" id="message" rows="3" placeholder="Write your message here."></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-primary mt-5">Submit</button>
+      </form>
+
+    </div>
+  </div>
+</body>
+<%- include ('partials/script') %>
+</html>
